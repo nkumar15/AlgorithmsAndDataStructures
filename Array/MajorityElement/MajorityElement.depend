@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463881862 source:f:\programs\datastructures\array\majorityelement\main.cpp
+	<iostream>
+	<array>
+	<unordered_map>
+
