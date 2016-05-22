@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463880171 source:f:\programs\datastructures\array\pairofnumber\main.cpp
+	<iostream>
+	<array>
+	<algorithm>
+
