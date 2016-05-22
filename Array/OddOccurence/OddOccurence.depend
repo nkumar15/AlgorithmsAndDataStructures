@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1463882512 source:f:\programs\datastructures\array\oddoccurence\main.cpp
+	<iostream>
+	<array>
+
