@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1463889319 source:f:\programs\datastructures\array\binarysearch\main.cpp
+	<iostream>
+	<array>
+
