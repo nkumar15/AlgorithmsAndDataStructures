@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1463885437 source:f:\programs\datastructures\array\largestsumcontigoussubarray\main.cpp
+	<iostream>
+	<array>
+
