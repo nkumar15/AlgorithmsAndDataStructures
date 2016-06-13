@@ -1,7 +1,15 @@
 #include <iostream>
 #include <string.h>
 
+/* For tutorial refer
+https://www.ics.uci.edu/~eppstein/161/960229.html
+http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/
+*/
+
+
 using namespace std;
+
+
 
 int lcs_length(const char *a,const char *b, int m, int n)
 {
