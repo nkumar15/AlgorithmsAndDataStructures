@@ -16,6 +16,8 @@ e f g
 There are  hourglasses in , and an hourglass sum is the sum of an hourglass' values.
 Find the maximum value among all hour glass
 
+values will be in range -9 to 9 inclusive
+
 */
 
 #include <iostream>
@@ -32,18 +34,19 @@ int main(){
        }
     }
 
-    int max = 0;
+    int max = -64;
     for (int row = 1; row < 5; row++ )
     {
         for ( int col = 1; col < 5; col++ )
         {
            int s = arr[ row-1 ][ col-1 ] + arr[ row - 1 ][ col ] +  arr[ row - 1 ][ col + 1]
-                 + arr[ row ][ col-1 ] + arr[ row ][ col ] + arr[ row ][ col + 1]
+                 + + arr[ row ][ col ]
                  + arr[ row+1 ][ col-1 ] + arr[ row + 1 ][ col ] +  arr[ row + 1 ][ col + 1];
 
-          if ( s > max )
+            if ( s > max )
               max = s;
         }
+
     }
 
     cout << max << endl;
