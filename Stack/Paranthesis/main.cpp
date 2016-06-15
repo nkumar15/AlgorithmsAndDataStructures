@@ -32,7 +32,7 @@ int main() {
     string line;
 
     cin >> n;
-    //n = 5;
+
     while ( n-- > 0 )
     {
         cin >> line;
@@ -64,7 +64,6 @@ int main() {
             cout << "YES" << endl;
         else
             cout << "NO" << endl;
-        //line = "{{[[(())]]}}";
     }
 
     return 0;
