@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1465806932 source:/home/iqnect/practice/AlgorithmsAndDataStructures/DP/LongestCommonSubSequence/main.cpp
+	<iostream>
+	<string.h>
+
